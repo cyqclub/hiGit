@@ -1,1 +1,5 @@
-create first git .txt
+<<<<<<< HEAD
+
+=======
+first test hello!!!
+>>>>>>> 1 com
