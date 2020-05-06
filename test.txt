@@ -1,5 +1,0 @@
-<<<<<<< HEAD
-
-=======
-first test hello!!!
->>>>>>> 1 com
