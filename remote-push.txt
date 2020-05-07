@@ -30,7 +30,7 @@ $ git branch -avv
 	* master                c7e521c [cyq888/master] Delete test5.txt
   	remotes/cyq888/master c7e521c Delete test5.txt
 ---------------------------------------------------------------------------------
-note: cyq888/master key == remotes/cyq888/master key; key==c7e521c
+note: local cyq888/master key == remotes/cyq888/master key; key==c7e521c
 ---------------------------------------------------------------------------------
 $ git add -A; git commit -m 'chinese *';
 
