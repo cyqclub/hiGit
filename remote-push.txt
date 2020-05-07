@@ -1,0 +1,49 @@
+Use remote
+Its: cyq888/master == remotes/cyq888/master == https://github.com/cyqclub/hiGit.git master
+---------------------------------------
+$ git remote add cyq888 https://github.com/cyqclub/hiGit.git
+
+$ git branch -avv
+
+* master c7e521c Delete test5.txt
+
+$ git push cyq888
+
+fatal: The current branch master has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream cyq888 master // --set-upstream == -u
+
+$ git push -u cyq888 master
+
+fatal: HttpRequestException encountered.
+   ▒▒▒▒▒▒▒▒ʱ▒▒▒▒
+error: unable to read askpass response from 'D:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Username for 'https://github.com': cyqclub
+error: unable to read askpass response from 'D:/Program Files/Git/mingw64/libexec/git-core/git-gui--askpass'
+Password for 'https://cyqclub@github.com':
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'cyq888'.
+
+$ git branch -avv
+
+* master                c7e521c [cyq888/master] Delete test5.txt
+  remotes/cyq888/master c7e521c Delete test5.txt
+
+$ git add -A; git commit -m 'chinese *';
+
+[master 3daa9bb] chinese *
+ 1 file changed, 1 insertion(+)
+
+$ git push cyq888
+
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 377 bytes | 377.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/cyqclub/hiGit.git
+   c7e521c..3daa9bb  master -> master
+
