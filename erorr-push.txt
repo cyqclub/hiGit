@@ -61,6 +61,7 @@ $ git push https://github.com/cyqclub/hiGit.git master
 -----------------------------------------------------------------------------------
 beacause https://github.com/cyqclub/hiGit.git had be modified by other man,
 so first pull before action every time, then add-commit-push be corrected.
+每次本地操作前先pull
 -----------------------------------------------------------------------------------
 
 $ git pull https://github.com/cyqclub/hiGit.git
