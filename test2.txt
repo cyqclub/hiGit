@@ -1,7 +1,31 @@
 step:
-1. init project A
+1. create A
+   $ git init A
+   $ cd A
+  
 2. pull https://github.com/cyqclub/hiGit.git
+   $ git pull https://github.com/cyqclub/hiGit.git
+  
 3. modify test2.txt
-4. add
-5. commit
-6. push from local to https://github.com/cyqclub/hiGit.git
+
+4. add and commit
+   $ git add -A;git commit -am 'pull local modify push';
+  
+6. push to https://github.com/cyqclub/hiGit.git from local 
+  git remote add <name> <url>  //local branch and remote branch be keeping
+  git push <name>              //remote branch name
+  
+  $ git push https://github.com/cyqclub/hiGit.git master
+---------------------------------------------------------------
+fatal: HttpRequestException encountered.
+   ▒▒▒▒▒▒▒▒ʱ▒▒▒▒
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 420 bytes | 210.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0)
+To https://github.com/cyqclub/hiGit.git
+   0d5b661..0732bdf  master -> master
+----------------------------------------------------------------
+well done!!
