@@ -1,4 +1,4 @@
-step:
+correct pull and push step:
 1. create A
    $ git init A
    $ cd A
