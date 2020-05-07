@@ -1,10 +1,7 @@
+Errors
 
-$ git add -A;git commit -am 'pull local modify push';
-[master 0732bdf] pull local modify push
- 1 file changed, 7 insertions(+), 3 deletions(-)
---------------------------------------------------------------------------------------------
-[error push ]
---------------------------------------------------------------------------------------------
+=========[error1 push ]====================================
+
 $ git push
 
 fatal: No configured push destination.
@@ -24,9 +21,9 @@ fatal: The current branch master has no upstream branch.
 To push the current branch and set the remote as upstream, use
 
     git push --set-upstream https://github.com/cyqclub/hiGit.git master
---------------------------------------------------------------------------------------------
-[correct push ]
---------------------------------------------------------------------------------------------
+-----------------
+[correct1 push ]
+-----------------
 $ git push https://github.com/cyqclub/hiGit.git master
 
 fatal: HttpRequestException encountered.
@@ -40,7 +37,8 @@ Total 3 (delta 0), reused 0 (delta 0)
 To https://github.com/cyqclub/hiGit.git
    0d5b661..0732bdf  master -> master
 
-
+=========================[error2 push ]===============================
+if create new file on local. "$ git push https://github.com/cyqclub/hiGit.git master" is error.
 
 
 
