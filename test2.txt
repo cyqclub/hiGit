@@ -1,3 +1,7 @@
-本地init一个A仓库
-若远程仓库不是空仓库则先pull远程仓库，否则push不了
-若第一次连接远程空仓库，则需要创建一个远程分支
+step:
+1. init project A
+2. pull https://github.com/cyqclub/hiGit.git
+3. modify test2.txt
+4. add
+5. commit
+6. push from local to https://github.com/cyqclub/hiGit.git
