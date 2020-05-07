@@ -108,6 +108,15 @@ $ git push https://github.com/cyqclub/hiGit.git master
 	To https://github.com/cyqclub/hiGit.git
    	0b2b487..cc0ad9e  master -> master
 
+============================sometimes========================
+$ git push https://github.com/cyqclub/hiGit.git master
+	fatal: unable to access 'https://github.com/cyqclub/hiGit.git/': Failed to connect to github.com port 443: Timed out
+
+------------------------------------------------------------------
+because of network communication problems.
+In this case, you only need to excute the command once again
+-------------------------------------------------------------------
+
 
 
 
